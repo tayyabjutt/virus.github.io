@@ -1,0 +1,138 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.img{
+    background-image: url(header-bg.jpg);
+	background-attachment:scroll;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.navbar-brand
+{
+	
+	font-family:'Kaushan Script';
+	right: 930px;
+	}
+.li
+{
+	
+	margin-right: 17px;
+	margin-top: -5px; 
+	font-family:  'Montserrat',;
+	
+}
+
+
+
+.intro{
+	padding-top: 300px;
+	padding-bottom: 200px;
+	
+}
+.intro-in{
+	font-size: 45px;
+	margin-bottom: 25px;
+	line-height: 40px;
+	font-style: italic;
+	color: white;
+	font-family: 'Droid Serif';
+}
+.navbar-inverse{
+	background: transparent;
+	border: none;
+	
+}
+.intro-heading{
+	font-size: 78px;
+	margin-bottom: 10px;
+	line-height: 40px;
+	color: white;
+	margin: 50px;
+	font-family: 'Montserrat',;
+	
+
+	
+}
+.fixed-top{
+	top: 0px;
+	bottom: 0px;
+	position: absolute;
+	right:5px;
+}
+.btn-primary{
+
+	background-color: #fed136;
+	font-size: 25px;
+	padding: 15px 40px;
+	border-color: #fed136;
+}
+
+.sas{
+	margin-left: -90px;
+	font-size: 28px;
+	font-family:  'Kaushan Script';}
+
+
+.size{
+	
+	padding: 30px;
+	color: white;
+	letter-spacing:1px;
+	
+}
+.start{
+	padding: 30px;
+	font-size:25px;
+	font-style: italic; 
+}
+.dd{
+	width: 200px;
+	height: 300px;
+}
+
+.fas{
+	width: 120px;
+	height: 120px;
+	color: white;
+	background-color: #FED136;
+	align-content: center;
+	border-radius: 50%; 
+	}
+.flex-container{
+	 display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: space-around;
+    
+}
+.flex-container{
+  padding: 10px;
+  margin-top: 60px;
+  
+}
+.box{
+	flex: 1;
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+}
+.box-2{
+	flex: 1;
+}
+.box-3{
+	flex: 1;
+}
+@media screen and (max-width:1200px){
+	.box{
+		width: 50%;
+	}
+}
+@media screen and (max-width:600){
+	.box{
+		width: 50%;
+	}
+}
